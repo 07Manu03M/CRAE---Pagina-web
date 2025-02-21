@@ -86,5 +86,93 @@
 }
 
 
+/**************************** Seccion Main *******************/
+
+.caja_main {
+    /* background: red; */
+    display: flex;
+    width: 100%;
+    height: 700px;
+    margin-top: 1%;
+}
+.Crae_descripcion {
+    /* background: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 5%;
+}
+.Crae_descripcion img{
+    background: transparent;
+}
+.Crae_descripcion span{
+    /* background: pink; */
+    margin-left: 2%;
+    font-size: 62.4px;
+    font-family: "Roboto-Condensed-Regular";
+    color: var(--color-1);
+}
+.Crae_descripcion p{
+    /* background: brown; */
+    margin-left: 2%;
+    color: var(--color-1);
+    width: 95%;
+    font-size: 30px;
+    font-family: "Roboto-Condensed-Regular";
+}
+.class_cartas {
+    /* background: violet; */
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+}
+.class_cartas img{
+    background: transparent;
+    width: 100%;
+    height: 600px;
+}
+.boton_compras {
+    background: var(--color-1);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 80px;
+}
+.boton_compras img{
+    /* background: rgb(44, 50, 63); */
+    width: 20%;
+    height: auto;
+}
+.boton_compras p{
+}
+.boton_compras span{
+    background: transparent;
+    font-size: 40px;
+    font-family: "Roboto-Condensed-Bold";
+}
+.redes_sociales {
+    /* background: aqua; */
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+    gap: 10%;
+    margin-top: 25%;
+}
+.redes_sociales img{
+    background: transparent;
+    width: 50;
+}
+
+
+
 
 
