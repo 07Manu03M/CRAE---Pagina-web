@@ -377,6 +377,135 @@
 }
 
 
+/********************** section section 1 *******************/
+
+
+.section {
+    /* background: red; */
+    display: flex;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 150px;
+    justify-content: space-around;
+}
+.texto_1 {
+    /* background: rebeccapurple; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+.texto_1 h1{
+    /* background: blue; */
+    font-size: 72px;
+    color: var(--color-1);
+    font-family: "Roboto-Condensed-Bold";
+}
+.texto_1 p{
+    /* background: pink; */
+    font-size: 36px;
+    color: var(--color-1);
+    font-family: "Roboto-Condensed-Regular";
+}
+.imagen_boton {
+    /* background: salmon; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.imagen_boton img{
+    /* background: aqua; */
+}
+
+.imagen_boton span{
+    background: var(--color-1);
+    font-size: 36px;
+    width: 85%;
+    font-family: "Roboto-Condensed-Bold";
+    border-radius: 32px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*************************** secion section 2 **********************/
+
+.section2 {
+    /* background: red; */
+    display: flex;
+    width: 90%;
+    height: 800px;
+    margin: auto;
+    margin-top: 150px;
+    justify-content: space-around;
+}
+.texto_2 {
+    /* background: rebeccapurple; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+.texto_2 h1{
+    /* background: blue; */
+    font-size: 72px;
+    color: var(--color-1);
+    font-family: "Roboto-Condensed-Bold";
+}
+.texto_2 p{
+    /* background: pink; */
+    font-size: 36px;
+    color: var(--color-1);
+    font-family: "Roboto-Condensed-Regular";
+}
+.imagen_boton2 {
+    /* background: salmon; */
+    display: flex;
+    margin-top: 10%;
+    height: 500px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personitas {
+    /* background: red; */
+}
+.personitas img:nth-child(2){
+    background: transparent;
+    position: relative;
+    right: 60px;
+}
+.personitas img:nth-child(1){
+    background: transparent;
+    position: relative;
+    left: 65px;
+}
+.aquia {
+    /* background: cadetblue; */
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.aquia span{
+    backgroumnd: aqua;
+    color: var(--color-1);
+    font-size: 96px;
+    font-family: "Roboto-Condensed-Regular";
+}
+.aquia img{
+    /* background: gold; */
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+
 
 
 
