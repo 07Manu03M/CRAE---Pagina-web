@@ -173,6 +173,211 @@
 }
 
 
+/****************** Article Section *****************/
+
+
+.comojugar {
+    /* background: red; */
+    padding: 5px;
+    width: 95%;
+    height: 1920px;
+    margin: auto;
+    margin-top: 100px;
+}
+.div_comojugar {
+    /* background: violet; */
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24%;
+}
+.div_comojugar h1{
+    /* background: blue; */
+    text-align: center;
+    color: var(--color-1);
+    width: 25%;
+    font-size: 64px;
+    font-family: "Roboto-Condensed-Bold";
+}
+.div_comojugar p{
+    /* background: yellow; */
+    color: var(--color-1);
+    font-size: 36px;
+    font-family: "Roboto-Condensed-Regular";
+    width: 40%;
+    text-align: center;
+}
+
+/* caja 1 */
+
+.paso1 {
+    /* background: green; */
+    display: flex;
+    width: 100%;
+    height: 220px;
+    justify-content: center;
+    gap: 5%;
+}
+.paso1 span{
+    background: var(--color-1);
+    color: var(--color-2);
+    margin-top: 60px;
+    border-radius: 100%;
+    width: 6%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    font-family: "Roboto-Condensed-Bold";
+}
+.paso1 p{
+    /* background: salmon; */
+    color: var(--color-1);
+    width: 55%;
+    font-family: "Roboto-Condensed-Regular";
+    text-align: start;
+}
+.paso1 img{
+    /* background: silver; */
+}
+
+/* caja 2 */
+
+.paso2 {
+    /* background: green; */
+    display: flex;
+    width: 100%;
+    height: 220px;
+    justify-content: center;
+    gap: 5%;
+}
+.paso2 span{
+    background: var(--color-1);
+    color: var(--color-2);
+    margin-top: 60px;
+    border-radius: 100%;
+    width: 6%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    font-family: "Roboto-Condensed-Bold";
+}
+.paso2 p{
+    color: var(--color-1);
+    width: 55%;
+    font-family: "Roboto-Condensed-Regular";
+    text-align: start;
+}
+.paso2 img{
+    /* background: silver; */
+}
+/* caja 3 */
+
+.paso3 {
+    /* background: green; */
+    
+    display: flex;
+    width: 100%;
+    height: 220px;
+    justify-content: center;
+    gap: 5%;
+}
+.paso3 span{
+    background: var(--color-1);
+    color: var(--color-2);
+    margin-top: 60px;
+    border-radius: 100%;
+    width: 6%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    font-family: "Roboto-Condensed-Bold";
+}
+.paso3 p{
+    color: var(--color-1);
+    width: 55%;
+    font-family: "Roboto-Condensed-Regular";
+    text-align: start;
+}
+.paso3 img{
+    /* background: silver; */
+}
+
+/* caja 4 */
+
+.paso4 {
+    /* background: green; */
+    display: flex;
+    width: 100%;
+    height: 220px;
+    justify-content: center;
+    gap: 5%;
+}
+.paso4 span{
+    background: var(--color-1);
+    color: var(--color-2);
+    margin-top: 60px;
+    border-radius: 100%;
+    width: 6%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    font-family: "Roboto-Condensed-Bold";
+}
+.paso4 p{
+    color: var(--color-1);
+    width: 55%;
+    font-family: "Roboto-Condensed-Regular";
+    text-align: start;
+}
+.paso4 img{
+    /* background: silver; */
+}
+
+/* caja 5 */
+
+.paso5 {
+    /* background: green; */
+    
+    display: flex;
+    width: 100%;
+    height: 220px;
+    justify-content: center;
+    gap: 5%;
+}
+.paso5 span{
+    background: var(--color-1);
+    color: var(--color-2);
+    margin-top: 60px;
+    border-radius: 100%;
+    width: 6%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    font-family: "Roboto-Condensed-Bold";
+}
+.paso5 p{
+    color: var(--color-1);
+    width: 55%;
+    font-family: "Roboto-Condensed-Regular";
+    text-align: start;
+}
+.paso5 img{
+    /* background: silver; */
+}
+
+
+
 
 
 
